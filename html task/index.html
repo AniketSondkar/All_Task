@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>HTML registration Form</h1>
+      <form name="registration" class="registartion-form">
+        <table>
+          <tr>
+            <td><label for="name">Name:</label></td>
+            <td>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Enter your name"
+                size="40px"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td>
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+                size="40px"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="Mobile">Phone No:</label></td>
+            <td><input type="number" name="password" id="password" size="40px" placeholder="Enter your Phone" ></td>
+          </tr>
+          <tr>
+            <tr>
+            <td><label for="Mobile">Mobile No:</label></td>
+            <td><input type="number" name="password" id="password" size="40px" placeholder="Enter your Mobile No" ></td>
+          </tr>
+          <tr>
+            <td><label for="City">City:</label></td>
+            <td><input type="text" name="password" id="password" size="40px" placeholder="Enter Your City Name" /></td>
+          </tr>
+          <tr>
+            <td><label for="State">State</label></td>
+            <td>
+              <select name="State" id="State">
+                <option value="">Select State</option>
+                <option value="">Pune</option>
+                <option value="">Nashik</option>
+                <option value="">Mumbai</option>
+                <option value="">Nagpure</option>
+                <option value="">Aourangabad</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="about">Address:</label></td>
+            <td>
+              <textarea
+                rows="5"
+                cols="40"
+                name="about"
+                id="about"
+                placeholder="Write about yourself..."
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="gender">Gender:</label></td>
+            <td>Male: <input type="radio" name="gender" value="male">
+              Female: <input type="radio" name="gender" value="female">
+              Other: <input type="radio" name="gender" value="other"></td>
+          </tr>
+          <tr>
+            <td><label for="gender">Technologies:</label></td>
+            <td>html: <input type="checkbox" name="gender" value="male"><br>
+              Css: <input type="checkbox" name="gender" value="female"><br>
+              Javascript: <input type="checkbox" name="gender" value="other"></td>
+              </tr>
+         <tr> 
+            <td><label for="State">Hobbies:</label></td>
+              <td>
+                <select name="State" id="Hobbies" multiple>
+                  <option value="">Select State</option>
+                  <option value="">Pune</option>
+                  <option value="">Nashik</option>
+                  <option value="">Mumbai</option>
+                  <option value="">Nagpure</option>
+                  <option value="">Aourangabad</option>
+                </select>
+              </td>
+            </tr>
+          <tr>
+              <td class="button">
+              <button type="submit">Submit</button></td>
+              <td class="button1"><button type="submit">Reset</button></td>
+              <td class="button2"><button type="submit">Cancel</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
